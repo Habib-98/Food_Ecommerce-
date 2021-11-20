@@ -1,0 +1,17 @@
+function remName(a, b){
+if(a.value==b){
+a.value='';
+}else if(a.value==''){
+a.value=b;
+}else{
+a.value=a.value;
+}
+}
+ 
+function chkName(a, b){
+if(a.value==''){
+a.value=b;
+}else{
+a.value=a.value;
+}
+}
